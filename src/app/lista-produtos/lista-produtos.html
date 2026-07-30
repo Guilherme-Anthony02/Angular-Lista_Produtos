@@ -3,10 +3,11 @@
 
     <form id="formulario">
         <label for="descricao">Descrição</label>
-        <input type="text" name="descricao" id="descricao">
+        <input type="text" name="descricao" id="descricao" [(ngModel)] = "descricao_produto">
+
 
         <label for="valor_unitario">Valor Unitário</label>
-        <input type="number" name="valor_unitario" id="valor_unitario">
+        <input type="number" name="valor_unitario" id="valor_unitario" [(ngModel)] = "valor_unitario">
 
         <div id="div-btns">
             <button type="submit" id="btnAdd"> Adicionar </button>
