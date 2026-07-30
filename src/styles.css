@@ -2,6 +2,18 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Roboto
-  
+    font-family: Roboto;
+}
+
+:root{
+    --branca: #ffffff;
+    --cor-fundo: #d8dbdf;
+    --botao1: #1D4ED8;
+    --botao2: #f4610c;
+    --cor1: #94b5a0;
+    --cor2: #f59E0B;
+}
+
+body{
+    margin: 25px;
 }
