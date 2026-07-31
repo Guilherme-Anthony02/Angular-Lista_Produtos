@@ -30,6 +30,10 @@ export class ListaProdutos {
     this.descricao_produto = ''
     this.valor_unitario = 0.0
 
-
   }
-}
+
+    limparTudo(){
+      this.listaItens = []
+    }
+    
+  }
